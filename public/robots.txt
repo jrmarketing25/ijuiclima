@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ijuiclima.com.br/sitemap.xml
+

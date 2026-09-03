@@ -1,0 +1,19 @@
+{
+  "name": "ijui-clima",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prerender": "node scripts/prerender.js",
+    "dev": "node scripts/prerender.js && vite",
+    "build": "node scripts/prerender.js && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "playwright": "^1.62.1",
+    "sharp": "^0.35.4",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.2.2"
+  }
+}
