@@ -192,7 +192,7 @@ export const siteConfig = {
       badge: "RESIDENCIAL",
       headline: "Conforto para os ambientes que fazem parte da sua rotina.",
       text: "Climatização de casas, apartamentos, quartos, salas e demais ambientes residenciais.",
-      image: "/images/ijui-clima/espaco-residencial.webp",
+      image: "/images/ijui-clima/projeto-residencial-novo.webp",
       alt: "Ambiente residencial com climatização silenciosa integrada de forma discreta",
       highlights: [
         "Aparelhos com baixo nível de ruído para noites de sono tranquilas",
