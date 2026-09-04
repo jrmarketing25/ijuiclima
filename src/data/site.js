@@ -59,9 +59,11 @@ export const siteConfig = {
     secondaryCta: "Conhecer serviços",
     segments: "Residencial • Comercial • Empresarial",
     image: {
-      url: "/images/ijui-clima/fachada-oficial.webp",
-      alt: "Fachada da sede oficial da Ijuí Clima em Ijuí/RS"
-    }
+      url: "/images/ijui-clima/fachada-nova.webp",
+      alt: "Fachada oficial da Ijuí Clima",
+      width: 700,
+      height: 900
+    },
   },
 
   trustBar: [
