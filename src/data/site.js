@@ -298,8 +298,8 @@ export const siteConfig = {
     headline: "Climatização feita com responsabilidade.",
     copy: "A Ijuí Clima oferece soluções em climatização para clientes residenciais e empresariais em Ijuí e região, com foco em atendimento profissional, cuidado técnico e qualidade na execução.",
     image: {
-      url: "/images/ijui-clima/Equipe.webp",
-      alt: "Equipe técnica e instaladores profissionais uniformizados da Ijuí Clima"
+      url: "/images/ijui-clima/frota-veiculos-ijui-clima.webp",
+      alt: "Frota de veículos de atendimento e sede oficial da Ijuí Clima"
     },
     facilityImage: {
       url: "/images/ijui-clima/fachada-empresa.webp",
