@@ -132,7 +132,7 @@ export const siteConfig = {
     headline: "Uma boa climatização começa por uma instalação bem executada.",
     text: "Uma instalação profissional ajuda o equipamento a trabalhar corretamente, reduz riscos de problemas futuros e contribui para eficiência, segurança e acabamento do ambiente.",
     image: {
-      url: "/images/ijui-clima/ijui-clima-12.webp",
+      url: "/images/ijui-clima/boa-climatizacao-nova.webp",
       alt: "Técnico da Ijuí Clima executando instalação de ar-condicionado com alinhamento milimétrico"
     },
     pillars: [
