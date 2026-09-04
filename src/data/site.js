@@ -204,7 +204,7 @@ export const siteConfig = {
       badge: "EMPRESARIAL",
       headline: "Climatização profissional para o seu negócio.",
       text: "Soluções para escritórios, lojas, consultórios, espaços comerciais e empresas.",
-      image: "/images/ijui-clima/espaco-empresarial.webp",
+      image: "/images/ijui-clima/projeto-empresarial-novo.webp",
       alt: "Sala corporativa de reuniões com ar-condicionado Cassete embutido no teto",
       highlights: [
         "Estabilidade térmica contínua para equipes de trabalho e clientes",
