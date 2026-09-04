@@ -90,7 +90,7 @@ export const siteConfig = {
         title: "Manutenção preventiva",
         description: "Revisão periódica de corrente elétrica, medição de pressões, desobstrução de drenos e limpeza técnica para economia de energia.",
         tag: "Eficiência • Menor Consumo",
-        image: "/images/ijui-clima/colaborador-2-trabalhando.webp",
+        image: "/images/ijui-clima/manutencao-preventiva-nova.webp",
         alt: "Técnico da Ijuí Clima realizando revisão e manutenção de evaporadora de ar-condicionado"
       },
       {
@@ -106,7 +106,7 @@ export const siteConfig = {
         title: "Higienização e limpeza",
         description: "Desmontagem técnica da evaporadora para sanitização profunda de serpentina, turbina e bandeja, eliminando ácaros, mofo e odores.",
         tag: "Saúde Respiratória • Sanitização",
-        image: "/images/ijui-clima/colaborador-2-trabalhando.webp",
+        image: "/images/ijui-clima/higienizacao-nova.webp",
         alt: "Procedimento técnico de higienização e limpeza de serpentina e filtros de ar-condicionado"
       },
       {
@@ -114,7 +114,7 @@ export const siteConfig = {
         title: "Climatização residencial",
         description: "Planejamento térmico adequado para quartos, salas e residências em Ijuí, assegurando operação silenciosa e preservação estética.",
         tag: "Casas • Apartamentos",
-        image: "/images/ijui-clima/ijui-clima-12.webp",
+        image: "/images/ijui-clima/climatizacao-residencial-nova.webp",
         alt: "Instalação de ar-condicionado Split em ambiente residencial com acabamento ripado"
       },
       {
