@@ -34,21 +34,21 @@ export function renderTrustBar() {
   const itemsHtml = trustBar.map((item, index) => {
     const icon = iconSvgs[item.icon] || iconSvgs.tool;
     const paddingClasses = index === 0 
-      ? 'lg:pr-6' 
+      ? 'lg:pr-8' 
       : index === trustBar.length - 1 
-      ? 'lg:pl-6' 
-      : 'lg:px-6';
+      ? 'lg:pl-8' 
+      : 'lg:px-8';
 
     return `
-      <div class="flex items-center gap-3.5 group py-1.5 sm:py-2 ${paddingClasses}">
-        <div class="w-10 h-10 rounded-lg bg-blue-50/80 border border-blue-100/60 flex items-center justify-center shrink-0 transition-colors duration-200 group-hover:bg-blue-100/70">
+      <div class="flex items-center gap-4 group py-2 sm:py-1.5 ${paddingClasses}">
+        <div class="w-11 h-11 rounded-xl bg-blue-50/90 border border-blue-100/70 flex items-center justify-center shrink-0 transition-all duration-200 group-hover:bg-blue-100/80 group-hover:border-blue-200/90 shadow-2xs">
           ${icon}
         </div>
         <div class="min-w-0">
-          <h3 class="text-sm font-bold text-slate-900 leading-tight">
+          <h3 class="text-[14.5px] font-bold text-slate-900 leading-tight tracking-tight">
             ${item.title}
           </h3>
-          <p class="text-xs text-slate-500 leading-snug mt-0.5">
+          <p class="text-[12.5px] text-slate-500 leading-snug mt-1">
             ${item.description}
           </p>
         </div>
@@ -57,9 +57,9 @@ export function renderTrustBar() {
   }).join('');
 
   return `
-    <section class="bg-slate-50/70 border-y border-slate-200/80" aria-label="Diferenciais e Padrão de Atendimento">
-      <div class="reveal-fade max-w-[1200px] mx-auto px-6 sm:px-8 py-5 lg:py-6">
-        <div class="grid grid-cols-1 min-[480px]:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-6 lg:gap-0 lg:divide-x lg:divide-slate-200/80">
+    <section class="bg-slate-50/80 border-y border-slate-200/75" aria-label="Diferenciais e Padrão de Atendimento">
+      <div class="reveal-fade max-w-[1280px] mx-auto px-6 sm:px-8 py-6 lg:py-7">
+        <div class="grid grid-cols-1 min-[480px]:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-7 lg:gap-0 lg:divide-x lg:divide-slate-200/80">
           ${itemsHtml}
         </div>
       </div>

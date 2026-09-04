@@ -59,10 +59,10 @@ export const siteConfig = {
     secondaryCta: "Conhecer serviços",
     localProof: "Sede própria em Ijuí/RS | Atendimento em toda a região",
     image: {
-      url: "/images/ijui-clima/colaborador-trabalhando.webp",
-      alt: "Técnico da Ijuí Clima executando instalação e manutenção de ar-condicionado split",
-      width: 1400,
-      height: 1050
+      url: "/images/ijui-clima/hero-oficial.webp",
+      alt: "Técnico da Ijuí Clima executando manutenção técnica e instalação de ar-condicionado split em ambiente residencial",
+      width: 1024,
+      height: 768
     },
   },
 
