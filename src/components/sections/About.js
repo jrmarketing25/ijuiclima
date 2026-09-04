@@ -67,7 +67,7 @@ export function renderAbout() {
                     height="200"
                   >
                   <div class="absolute inset-0 bg-gradient-to-t from-black/75 to-transparent flex items-end p-3">
-                    <span class="text-xs font-mono font-medium text-white tracking-wide">Sede Ijuí Clima</span>
+                    <span class="text-xs font-mono font-medium text-white tracking-wide">Frota de Atendimento</span>
                   </div>
                 </div>
 
@@ -81,7 +81,7 @@ export function renderAbout() {
                     height="200"
                   >
                   <div class="absolute inset-0 bg-gradient-to-t from-black/75 to-transparent flex items-end p-3">
-                    <span class="text-xs font-mono font-medium text-white tracking-wide">Unidade Móvel</span>
+                    <span class="text-xs font-mono font-medium text-white tracking-wide">Estrutura Técnica</span>
                   </div>
                 </div>
               </div>
