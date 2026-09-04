@@ -34,21 +34,21 @@ export function renderTrustBar() {
   const itemsHtml = trustBar.map((item, index) => {
     const icon = iconSvgs[item.icon] || iconSvgs.tool;
     const paddingClasses = index === 0 
-      ? 'lg:pr-8' 
+      ? 'lg:pr-4 xl:pr-6' 
       : index === trustBar.length - 1 
-      ? 'lg:pl-8' 
-      : 'lg:px-8';
+      ? 'lg:pl-4 xl:pl-6' 
+      : 'lg:px-4 xl:px-6';
 
     return `
-      <div class="flex items-center gap-4 group py-2 sm:py-1.5 ${paddingClasses}">
-        <div class="w-11 h-11 rounded-xl bg-blue-50/90 border border-blue-100/70 flex items-center justify-center shrink-0 transition-all duration-200 group-hover:bg-blue-100/80 group-hover:border-blue-200/90 shadow-2xs">
+      <div class="flex items-center gap-3 sm:gap-3.5 group py-2 sm:py-1.5 ${paddingClasses}">
+        <div class="w-10 h-10 rounded-xl bg-blue-50/90 border border-blue-100/70 flex items-center justify-center shrink-0 transition-all duration-200 group-hover:bg-blue-100/80 group-hover:border-blue-200/90 shadow-2xs">
           ${icon}
         </div>
         <div class="min-w-0">
-          <h3 class="text-[14.5px] font-bold text-slate-900 leading-tight tracking-tight">
+          <h3 class="text-[13.5px] sm:text-[14px] xl:text-[14.5px] font-bold text-slate-900 leading-tight tracking-tight whitespace-nowrap">
             ${item.title}
           </h3>
-          <p class="text-[12.5px] text-slate-500 leading-snug mt-1">
+          <p class="text-[11.5px] sm:text-[12px] xl:text-[12.5px] text-slate-500 leading-snug mt-1 truncate">
             ${item.description}
           </p>
         </div>
