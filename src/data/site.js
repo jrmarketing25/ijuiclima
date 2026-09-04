@@ -98,7 +98,7 @@ export const siteConfig = {
         title: "Manutenção corretiva",
         description: "Diagnóstico objetivo de vazamentos de fluido refrigerante, testes em placas Inverter e reparo seguro de componentes.",
         tag: "Diagnóstico Objetivo • Reparo Seguro",
-        image: "/images/ijui-clima/manutencao.webp",
+        image: "/images/ijui-clima/manutencao-corretiva-nova.webp",
         alt: "Diagnóstico técnico e medição de pressão em sistema de refrigeração pela Ijuí Clima"
       },
       {
@@ -122,7 +122,7 @@ export const siteConfig = {
         title: "Climatização empresarial",
         description: "Atendimento voltado a escritórios, lojas, clínicas e comércios, com manutenção programada e flexibilidade de horários.",
         tag: "Comércios • Escritórios • Clínicas",
-        image: "/images/ijui-clima/espaco-empresarial.webp",
+        image: "/images/ijui-clima/climatizacao-empresarial-nova.webp",
         alt: "Climatização empresarial com unidade Cassete de 4 vias instalada em ambiente corporativo"
       }
     ]
