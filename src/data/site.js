@@ -53,24 +53,40 @@ export const siteConfig = {
 
   hero: {
     eyebrow: "CLIMATIZAÇÃO PROFISSIONAL • IJUÍ/RS",
-    headline: "Climatização profissional para o conforto do seu ambiente.",
-    description: "Instalação, manutenção e higienização de ar-condicionado com atendimento especializado, cuidado técnico e acabamento profissional.",
+    headline: "Conforto começa com um serviço bem executado.",
+    description: "Instalação, manutenção e higienização de ar-condicionado para residências e empresas, com atendimento técnico em Ijuí e região.",
     primaryCta: "Solicitar orçamento",
     secondaryCta: "Conhecer serviços",
-    segments: "Residencial • Comercial • Empresarial",
+    localProof: "Sede própria em Ijuí/RS | Atendimento em toda a região",
     image: {
-      url: "/images/ijui-clima/fachada-nova.webp",
-      alt: "Fachada oficial da Ijuí Clima",
-      width: 700,
-      height: 900
+      url: "/images/ijui-clima/colaborador-trabalhando.webp",
+      alt: "Técnico da Ijuí Clima executando instalação e manutenção de ar-condicionado split",
+      width: 1400,
+      height: 1050
     },
   },
 
   trustBar: [
-    "Instalação profissional",
-    "Manutenção especializada",
-    "Atendimento residencial e empresarial",
-    "Ijuí e região"
+    {
+      title: "Instalação profissional",
+      description: "Padrão técnico e segurança",
+      icon: "tool"
+    },
+    {
+      title: "Manutenção especializada",
+      description: "Mais desempenho e durabilidade",
+      icon: "gear"
+    },
+    {
+      title: "Equipe própria",
+      description: "Atendimento especializado",
+      icon: "team"
+    },
+    {
+      title: "Ijuí e região",
+      description: "Rapidez e proximidade",
+      icon: "location"
+    }
   ],
 
   services: {
