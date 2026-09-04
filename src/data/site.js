@@ -261,7 +261,7 @@ export const siteConfig = {
         title: "Instalação de Bateria de Condensadoras em Cobertura",
         category: "Climatização Comercial",
         location: "Ijuí — RS",
-        image: "/images/ijui-clima/splits-em-series.webp",
+        image: "/images/ijui-clima/projeto-condensadoras-nova.webp",
         alt: "Bateria de unidades condensadoras de ar-condicionado instaladas em cobertura pela Ijuí Clima"
       },
       {
@@ -270,7 +270,7 @@ export const siteConfig = {
         title: "Climatização Cassete para Sala de Reuniões",
         category: "Corporativo",
         location: "Ijuí — RS",
-        image: "/images/ijui-clima/espaco-empresarial.webp",
+        image: "/images/ijui-clima/projeto-cassete-reunioes-nova.webp",
         alt: "Sala corporativa de reuniões com ar-condicionado Cassete de 4 vias instalado pela Ijuí Clima"
       },
       {
@@ -279,7 +279,7 @@ export const siteConfig = {
         title: "Instalação Residencial de Split com Alinhamento Técnico",
         category: "Residencial",
         location: "Ijuí — RS",
-        image: "/images/ijui-clima/colaborador-trabalhando.webp",
+        image: "/images/ijui-clima/projeto-split-residencial-nova.webp",
         alt: "Técnico da Ijuí Clima executando instalação de split residencial com alinhamento e precisão"
       },
       {
@@ -288,7 +288,7 @@ export const siteConfig = {
         title: "Revisão Técnica de Pressão e Diagnóstico de Fluido",
         category: "Manutenção",
         location: "Ijuí — RS",
-        image: "/images/ijui-clima/manutencao.webp",
+        image: "/images/ijui-clima/projeto-revisao-pressao-nova.webp",
         alt: "Medição de pressão de fluido refrigerante com manifold executada por técnico da Ijuí Clima"
       }
     ]
