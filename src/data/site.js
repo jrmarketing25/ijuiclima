@@ -82,7 +82,7 @@ export const siteConfig = {
         title: "Instalação de ar-condicionado",
         description: "Execução nos padrões dos fabricantes, com tubulação 100% cobre, processo de vácuo profundo e acabamento alinhado.",
         tag: "Hi-Wall • Multi-Split • Cassete",
-        image: "/images/ijui-clima/colaborador-trabalhando.webp",
+        image: "/images/ijui-clima/instalacao-nova.webp",
         alt: "Técnico uniformizado da Ijuí Clima realizando instalação e alinhamento de ar-condicionado Split"
       },
       {
