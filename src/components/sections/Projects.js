@@ -55,9 +55,6 @@ export function renderProjects() {
               ${projects.description}
             </p>
           </div>
-          <div class="reveal-fade text-xs text-slate-400 font-mono" style="transition-delay: 200ms;">
-            ${projects.notice}
-          </div>
         </div>
 
         <!-- Grid Editorial Assimétrico -->
