@@ -20,23 +20,23 @@ export function renderDifferentials() {
   }).join('');
 
   return `
-    <section id="diferenciais" class="py-16 sm:py-24 bg-white" aria-labelledby="diferenciais-title">
-      <div class="max-w-7xl mx-auto px-6 sm:px-8">
+    <section id="diferenciais" class="py-16 sm:py-20 lg:py-28 bg-white" aria-labelledby="diferenciais-title">
+      <div class="max-w-7xl mx-auto px-5 max-[375px]:px-4 sm:px-8">
         
-        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
           
           <div class="lg:col-span-4 lg:sticky lg:top-28">
-            <span class="reveal-up text-xs font-semibold uppercase tracking-wider text-[#0C3B78] block mb-3">Padrão de Trabalho</span>
-            <h2 id="diferenciais-title" class="reveal-up font-display text-3xl sm:text-[clamp(36px,4vw,48px)] font-bold text-[#0F141C] tracking-tight leading-[1.1] mb-5" style="transition-delay: 80ms;">
+            <span class="reveal-up text-xs font-semibold uppercase tracking-wider text-[#0C3B78] block mb-2 sm:mb-3">Padrão de Trabalho</span>
+            <h2 id="diferenciais-title" class="reveal-up font-display text-[30px] min-[390px]:text-[32px] sm:text-[clamp(36px,4vw,48px)] font-bold text-[#0F141C] tracking-tight leading-[1.1] mb-4 sm:mb-5" style="transition-delay: 80ms;">
               ${differentials.headline}
             </h2>
-            <p class="reveal-up text-base sm:text-lg text-slate-600 leading-relaxed" style="transition-delay: 140ms;">
+            <p class="reveal-up text-[15px] sm:text-base lg:text-lg text-slate-600 leading-relaxed mb-6 lg:mb-0" style="transition-delay: 140ms;">
               Acreditamos que o bom serviço alia rigor de engenharia, pontualidade e respeito integral ao ambiente do cliente.
             </p>
           </div>
 
           <!-- Composição Editorial 2x3 -->
-          <div class="lg:col-span-8 grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-10 lg:gap-y-14">
+          <div class="lg:col-span-8 grid grid-cols-1 sm:grid-cols-2 gap-x-10 lg:gap-x-12 gap-y-8 sm:gap-y-10 lg:gap-y-14">
             ${itemsHtml}
           </div>
 

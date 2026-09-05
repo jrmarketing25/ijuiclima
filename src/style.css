@@ -311,3 +311,23 @@ button:focus-visible, a:focus-visible, input:focus-visible {
 ::-webkit-scrollbar-thumb:hover {
   background: #949daf;
 }
+
+/* Native Accordion / Details Reset */
+details summary::-webkit-details-marker {
+  display: none;
+}
+details summary {
+  list-style: none;
+}
+details summary:focus-visible {
+  outline: 2px solid var(--color-brand-blue);
+  outline-offset: 2px;
+}
+
+/* Mobile Touch Target Standards */
+@media (max-width: 639px) {
+  .btn-primary, .btn-secondary {
+    min-height: 52px;
+  }
+}
+

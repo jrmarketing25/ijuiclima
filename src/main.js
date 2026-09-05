@@ -65,11 +65,11 @@ function initStickyHeader() {
 
   const onScroll = () => {
     if (window.scrollY > 20) {
-      header.classList.add('bg-white/95', 'backdrop-blur-md', 'shadow-xs', 'py-3.5');
-      header.classList.remove('py-5', 'sm:py-6', 'bg-transparent');
+      header.classList.add('bg-white/95', 'backdrop-blur-md', 'shadow-xs', 'py-2.5', 'sm:py-3.5');
+      header.classList.remove('py-3.5', 'sm:py-5', 'lg:py-7', 'bg-transparent');
     } else {
-      header.classList.remove('bg-white/95', 'backdrop-blur-md', 'shadow-xs', 'py-3.5');
-      header.classList.add('py-5', 'sm:py-6', 'bg-transparent');
+      header.classList.remove('bg-white/95', 'backdrop-blur-md', 'shadow-xs', 'py-2.5', 'sm:py-3.5');
+      header.classList.add('py-3.5', 'sm:py-5', 'lg:py-7', 'bg-transparent');
     }
   };
 
@@ -243,7 +243,7 @@ function initServicesHover() {
 function initScrollReveal() {
   if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
 
-  const revealElements = document.querySelectorAll('.reveal-up, .reveal-scale, .reveal-fade');
+  const revealElements = document.querySelectorAll('.reveal-up, .reveal-scale, .reveal-fade, .reveal-line-x, .reveal-line-y');
   if (!('IntersectionObserver' in window)) {
     revealElements.forEach(el => el.classList.add('is-revealed'));
     return;
@@ -258,7 +258,7 @@ function initScrollReveal() {
       }
     });
   }, {
-    rootMargin: '0px 0px -10% 0px', // Trigger when 10% visible
+    rootMargin: '60px 0px 60px 0px', // Trigger smoothly slightly before entry
     threshold: 0
   });
 

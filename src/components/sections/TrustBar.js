@@ -40,15 +40,15 @@ export function renderTrustBar() {
       : 'lg:px-4 xl:px-6';
 
     return `
-      <div class="flex items-center gap-3 sm:gap-3.5 group py-2 sm:py-1.5 ${paddingClasses}">
-        <div class="w-10 h-10 rounded-xl bg-blue-50/90 border border-blue-100/70 flex items-center justify-center shrink-0 transition-all duration-200 group-hover:bg-blue-100/80 group-hover:border-blue-200/90 shadow-2xs">
+      <div class="flex items-center gap-3 sm:gap-3.5 group py-1.5 sm:py-2 ${paddingClasses}">
+        <div class="w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-blue-50/90 border border-blue-100/70 flex items-center justify-center shrink-0 transition-all duration-200 group-hover:bg-blue-100/80 group-hover:border-blue-200/90 shadow-2xs">
           ${icon}
         </div>
         <div class="min-w-0">
-          <h3 class="text-[13.5px] sm:text-[14px] xl:text-[14.5px] font-bold text-slate-900 leading-tight tracking-tight whitespace-nowrap">
+          <h3 class="text-[13px] min-[390px]:text-[13.5px] sm:text-[14px] xl:text-[14.5px] font-bold text-slate-900 leading-tight tracking-tight lg:whitespace-nowrap">
             ${item.title}
           </h3>
-          <p class="text-[11.5px] sm:text-[12px] xl:text-[12.5px] text-slate-500 leading-snug mt-1 truncate">
+          <p class="text-[11.5px] sm:text-[12px] xl:text-[12.5px] text-slate-500 leading-snug mt-0.5 sm:mt-1">
             ${item.description}
           </p>
         </div>
@@ -58,8 +58,8 @@ export function renderTrustBar() {
 
   return `
     <section class="bg-slate-50/80 border-y border-slate-200/75" aria-label="Diferenciais e Padrão de Atendimento">
-      <div class="reveal-fade max-w-[1280px] mx-auto px-6 sm:px-8 py-6 lg:py-7">
-        <div class="grid grid-cols-1 min-[480px]:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-7 lg:gap-0 lg:divide-x lg:divide-slate-200/80">
+      <div class="reveal-fade max-w-[1280px] mx-auto px-5 max-[375px]:px-4 sm:px-8 py-5 sm:py-6 lg:py-7">
+        <div class="grid grid-cols-1 min-[370px]:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 lg:gap-0 lg:divide-x lg:divide-slate-200/80">
           ${itemsHtml}
         </div>
       </div>

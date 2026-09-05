@@ -44,11 +44,11 @@ export function renderProcess() {
       </div>
 
       <!-- Content -->
-      <div class="flex-1 pt-2">
-        <h3 class="font-display text-[15px] sm:text-base font-bold text-slate-900 mb-1.5">
+      <div class="flex-1 pt-1.5">
+        <h3 class="font-display text-base sm:text-lg font-bold text-slate-900 mb-1.5">
           ${step.title}
         </h3>
-        <p class="text-[14.5px] text-slate-600 leading-relaxed">
+        <p class="text-[15px] sm:text-base text-slate-600 leading-relaxed">
           ${step.description}
         </p>
       </div>
@@ -57,12 +57,12 @@ export function renderProcess() {
   `).join('');
 
   return `
-    <section id="processo" class="py-20 sm:py-28 bg-white" aria-labelledby="processo-title">
-      <div class="max-w-7xl mx-auto px-6 sm:px-8">
+    <section id="processo" class="py-16 sm:py-20 lg:py-28 bg-white" aria-labelledby="processo-title">
+      <div class="max-w-7xl mx-auto px-5 max-[375px]:px-4 sm:px-8">
         
-        <div class="max-w-2xl mb-14 lg:mb-20">
-          <span class="reveal-up text-xs font-semibold uppercase tracking-wider text-[#0C3B78] block mb-3">Metodologia Clara</span>
-          <h2 id="processo-title" class="reveal-up font-display text-3xl sm:text-[clamp(36px,4vw,48px)] font-bold text-[#0F141C] tracking-tight leading-[1.1] mb-5" style="transition-delay: 80ms;">
+        <div class="max-w-2xl mb-10 sm:mb-14 lg:mb-20">
+          <span class="reveal-up text-xs font-semibold uppercase tracking-wider text-[#0C3B78] block mb-2 sm:mb-3">Metodologia Clara</span>
+          <h2 id="processo-title" class="reveal-up font-display text-[30px] min-[390px]:text-[32px] sm:text-[clamp(36px,4vw,48px)] font-bold text-[#0F141C] tracking-tight leading-[1.1] mb-4 sm:mb-5" style="transition-delay: 80ms;">
             ${process.headline}
           </h2>
           <p class="reveal-up text-[15px] sm:text-base text-slate-600 leading-relaxed" style="transition-delay: 140ms;">
