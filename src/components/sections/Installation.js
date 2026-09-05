@@ -15,12 +15,12 @@ export function renderInstallation() {
       <div class="max-w-7xl mx-auto px-5 max-[375px]:px-4 sm:px-8">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center">
           
-          <!-- Imagem Grande e Impactante (Primeiro no Mobile) -->
-          <div class="reveal-scale order-1 lg:order-1 relative rounded-lg overflow-hidden border border-slate-800 shadow-xl aspect-[4/3] sm:aspect-video lg:aspect-[4/5] max-h-[560px]">
+          <!-- Imagem Grande e Impactante (Primeiro no Mobile - Proporção 4:5 natural sem cortes) -->
+          <div class="reveal-scale order-1 lg:order-1 relative rounded-lg overflow-hidden border border-slate-800 shadow-xl aspect-[4/5] max-h-[520px] sm:max-h-[560px] mx-auto w-full max-w-md lg:max-w-none">
             <img 
               src="${installation.image.url}" 
               alt="${installation.image.alt}" 
-              class="w-full h-full object-cover object-center"
+              class="w-full h-full object-cover object-top"
               loading="lazy"
               width="640"
               height="800"

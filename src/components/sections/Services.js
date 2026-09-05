@@ -61,14 +61,14 @@ export function renderServices() {
           ${item.description}
         </p>
 
-        <div class="rounded-lg overflow-hidden aspect-[16/10] border border-slate-200 shadow-xs max-w-sm mt-2">
+        <div class="rounded-lg overflow-hidden aspect-[4/5] border border-slate-200 shadow-xs w-full max-w-[320px] sm:max-w-sm mt-2">
           <img 
             src="${item.image}" 
             alt="${item.alt}" 
-            class="w-full h-full object-cover"
+            class="w-full h-full object-cover object-top"
             loading="lazy"
-            width="360"
-            height="225"
+            width="400"
+            height="500"
           >
         </div>
 
